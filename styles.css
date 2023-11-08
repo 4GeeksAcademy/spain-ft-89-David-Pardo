@@ -1,0 +1,75 @@
+body {
+	background: black;
+	font-family: "Gemunu Libre", sans-serif;
+	font-family: "Indie Flower", cursive;
+}
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+}
+
+.postcard-body {
+	display: flex;
+	padding: 10px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+	font-weight: bold;
+}
+
+.body-left,
+.body-right {
+	padding: auto;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	margin: 3px;
+	outline: none;
+	font-family: "Gemunu Libre", sans-serif;
+	font-family: "Indie Flower", cursive;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #c5cacc;
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+	font-family: "Gemunu Libre", sans-serif;
+	font-family: "Indie Flower", cursive;
+	font-weight: bold;
+}
+
+::placeholder {
+	font-weight: bolder;
+}
